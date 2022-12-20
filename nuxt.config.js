@@ -15,6 +15,12 @@ export default defineNuxtConfig({
       },
       ssr: false,
       css: ["~/assets/css/main.css"],
+
+      script: [{
+        type: 'text/javascript',
+        src: "https://unpkg.com/flowbite@1.5.5/dist/datepicker.js"
+    }
+      ],
     
       //  pluggins:[{
       //   src: '~/plugins/JSONViewer'
